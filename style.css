@@ -1,0 +1,504 @@
+/* style.css */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Customize the color */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #555; /* Customize the hover color */
+}
+
+/* style.css */
+header {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f5f5f5; /* Customize the background color */
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333; /* Customize the text color */
+}
+
+header p {
+    font-size: 20px;
+    color: #555; /* Customize the text color */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+/* style.css */
+.house-placeholder {
+    margin-top: 30px;
+}
+
+.house-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* style.css */
+#property-slider {
+    background-color: #f9f9f9; /* Customize the background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.property-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property-listing {
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+    max-width: 300px;
+}
+
+.property-listing img {
+    max-width: 100%;
+    height: auto;
+}
+
+.property-details {
+    margin-top: 10px;
+}
+
+.property-price {
+    font-weight: bold;
+    color: #333; /* Customize the text color */
+}
+
+/* Style other property details as needed */
+
+
+
+/* style.css */
+#property-banners {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f9f9f9; /* Customize the background color */
+}
+
+.property-banner {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.property-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    margin-top: 10px;
+}
+
+.banner-content h3 {
+    font-size: 20px;
+    color: #333; /* Customize the text color */
+}
+
+.banner-content p {
+    font-size: 14px;
+    color: #555; /* Customize the text color */
+}
+
+.banner-content a {
+    display: block;
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.banner-content a:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+
+
+
+/* style.css */
+#show-more-button {
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#show-more-button:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+
+/* style.css */
+#property-details {
+    padding: 20px;
+}
+
+.property-images {
+    text-align: center;
+}
+
+.property-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.property-info {
+    margin-top: 20px;
+}
+
+.property-info h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.property-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.property-info h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.property-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.property-info a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ff6600; /* Customize the link color */
+    font-weight: bold;
+}
+
+.property-info a:hover {
+    color: #ff9900; /* Customize the link hover color */
+}
+
+
+/* style.css */
+#show-more-button {
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#show-more-button:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+/* style.css */
+
+#contact-options {
+    background-color: #f5f5f5; /* Customize the background color */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-buttons {
+    margin-top: 20px;
+}
+
+.contact-buttons a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.contact-buttons a:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+
+/* style.css */
+#property-details {
+    padding: 40px;
+    text-align: center;
+}
+
+.property-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.property-info h1 {
+    font-size: 24px;
+    color: #333; /* Customize the text color */
+}
+
+.property-info p {
+    font-size: 16px;
+    color: #555; /* Customize the text color */
+}
+
+.property-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.property-info ul li {
+    font-size: 14px;
+    color: #555; /* Customize the text color */
+}
+
+.property-info a {
+    display: block;
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.property-info a:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+/* Add this CSS to style the Slick slider dots */
+.slick-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.slick-dots li button {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ddd; /* Customize the background color of inactive dots */
+    color: #fff; /* Customize the color of inactive dots */
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #ff6600; /* Customize the background color of active dot */
+    opacity: 1;
+}
+
+
+/* Adjust the styling for the "הצג נכסים נוספים" button */
+#show-more-button {
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Center-align the button horizontally and add margin */
+    display: block; /* Ensure the button is a block-level element */
+    font-size: 18px;
+    text-align: center; /* Center-align text */
+    width: fit-content; /* Adjust the button's width to fit its content */
+}
+
+#show-more-button:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+/* Style property banners */
+.property-banner {
+    margin: 20px auto; /* Center-align the property banner */
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.property-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    margin-top: 10px;
+}
+
+.banner-content h3 {
+    font-size: 20px;
+    color: #333; /* Customize the text color */
+}
+
+.banner-content p {
+    font-size: 14px;
+    color: #555; /* Customize the text color */
+}
+
+.banner-content a {
+    display: block;
+    background-color: #ff6600; /* Customize the button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center; /* Center-align the button text */
+}
+
+.banner-content a:hover {
+    background-color: #ff9900; /* Customize the hover color */
+}
+
+
+/* Style the slick-dots container */
+.slick-dots-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style each dot */
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.slick-dots li button {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ddd; /* Background color of inactive dots */
+    color: #fff; /* Color of inactive dots */
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+/* Style the active dot */
+.slick-dots li.slick-active button {
+    background-color: #ff6600; /* Background color of active dot */
+    opacity: 1;
+}
+
+
+
+#contact-options {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-option .icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.contact-option:hover {
+    color: navy; /* Customize the hover color */
+}
+
+.contact-option:hover .icon {
+    transform: scale(1.1); /* Scale up the icon on hover */
+}
