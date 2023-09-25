@@ -502,3 +502,7 @@ header p {
 .contact-option:hover .icon {
     transform: scale(1.1); /* Scale up the icon on hover */
 }
+
+.logo{
+    background-color: black;
+}

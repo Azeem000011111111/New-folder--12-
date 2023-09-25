@@ -29,15 +29,13 @@
             <!-- Add more images as needed -->
         </div>
         <div class="property-info">
-            <h1>שם הנכס</h1>
-            <p>מכירה | 4 חדרים | 3 חדרי שינה | 2 חדרי אמבטיה | 180 מ"ר</p>
-            <h2>תיאור הנכס</h2>
-            <p>תיאור מפורט של הנכס יכול להיות כאן.</p>
-            <h2>מאפיינים נוספים</h2>
-            <ul>
-                <li>מרפסת גדולה</li>
-                <li>מטבח מאובזר</li>
-                <li>מחסן</li>
+            <div class="property-info">
+                <h1 id="property-name">שם הנכס</h1>
+                <p id="property-description">מכירה | 4 חדרים | 3 חדרי שינה | 2 חדרי אמבטיה | 180 מ"ר</p>
+                <h2>תיאור הנכס</h2>
+                <p id="property-detailed-description">תיאור מפורט של הנכס יכול להיות כאן.</p>
+                <h2>מאפיינים נוספים</h2>
+                <ul id="property-features">
                 <!-- Add more features as needed -->
             </ul>
             <h2>צור קשר</h2>
@@ -46,11 +44,38 @@
             <a href="mailto:info@example.com">אימייל: info@example.com</a>
         </div>
     </section>
-    
 
-    <footer>
-        <!-- Footer content (from a previous step) -->
-    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Find the property-details-link element
+            const propertyDetailsLink = document.querySelector('.property-details-link');
+
+            // Check if the link exists
+            if (propertyDetailsLink) {
+                // Get the property details from data attributes
+                const price = propertyDetailsLink.closest('.property-banner').getAttribute('data-price');
+                const rooms = propertyDetailsLink.closest('.property-banner').getAttribute('data-rooms');
+                const bedrooms = propertyDetailsLink.closest('.property-banner').getAttribute('data-bedrooms');
+                const location = propertyDetailsLink.closest('.property-banner').getAttribute('data-location');
+
+                // Update property details using the retrieved information
+                document.getElementById('property-name').textContent = location;
+                document.getElementById('property-description').textContent = `מכירה | ${rooms} | ${bedrooms} | 2 חדרי אמבטיה | 180 מ"ר`;
+                document.getElementById('property-detailed-description').textContent = `תיאור מפורט של ${location}`;
+
+                // Example: Update features list
+                const featuresList = document.getElementById('property-features');
+                // Clear existing features
+                featuresList.innerHTML = "";
+                const features = ["מרפסת גדולה", "מטבח מאובזר", "מחסן"];
+                features.forEach(feature => {
+                    const li = document.createElement("li");
+                    li.textContent = feature;
+                    featuresList.appendChild(li);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
